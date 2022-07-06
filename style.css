@@ -1,0 +1,175 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.header {
+    background: url(donate-today/images/top-banner.jpg);
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 183px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+.header p {
+    background-color: rgba(107, 27, 27, 0.575);
+    display: inline-block;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.donation {
+    margin-top: 100px;
+}
+
+.donate {
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+
+.amount {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.amount-tk {
+    background-color: rgba(255, 160, 176, 0.171);
+    font-size: 20px;
+    padding: 30px;
+    margin-left: 20px;
+}
+
+.doneted {
+    border: 2px rgb(255, 0, 43) solid;
+    color: rgb(255, 0, 43);
+    background-color: rgba(196, 95, 112, 0.459);
+    border-radius: 5px;
+}
+
+.submit {
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+
+}
+
+.submit a {
+    margin-left: 300px;
+
+}
+
+
+.submit input {
+    width: 700px;
+    text-align: center;
+    padding: 30px 20px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+.donate-plan {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.plan {
+    width: 30%;
+    background-color: rgba(255, 160, 176, 0.171);
+    border-radius: 20px;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#education {
+    width: 30%;
+    background-color: burlywood;
+    border-radius: 20px;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.plan p {
+    text-align: justify;
+}
+
+
+.flexible-container {
+    display: flex;
+    margin: 100px 100px 100px 80px;
+
+}
+
+.half-width {
+    width: 35%;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.half-width img {
+    margin: 50px 100px 100px 100px;
+}
+
+.updates {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mail {
+    padding: 70px 175px;
+    background-color: rgba(42, 68, 211, 0.158);
+    margin: 50px 220px;
+    border-radius: 20px;
+}
+
+.mail input {
+    width: 400px;
+    padding: 15px 20px;
+    border: none;
+    border-bottom: 2px solid grey;
+    background-color: rgba(128, 128, 128, 0.26);
+}
+
+.subscribe-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(109, 157, 230), rgb(8, 169, 243));
+    padding: 12px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 80px 0;
+    s margin-top: 50px;
+}
+
+footer h2 {
+    font-family: 'Lobster', cursive;
+    color: orange;
+}
